@@ -1,0 +1,39 @@
+@import './hero';
+@import './textvideo';
+@import './preview';
+@import './ahead';
+@import './regions';
+@import './contact';
+
+.main-wrapper {
+  @include breakpoint(medium down) {
+    padding: 0 1em;
+  }
+}
+
+.logos-container {
+  justify-content: center;
+}
+
+.logo {
+  &-container {
+    & + .logo-container {
+      margin-left: 1em;
+    }
+  }
+  width        : 28px;
+  height       : 28px;
+  border-radius: 0.25em;
+}
+
+.linkedin {
+  background: url("../../images/custom/linkedin.svg") no-repeat;
+}
+
+.twitter {
+  background: url("../../images/custom/twitter.svg") no-repeat;
+}
+
+.facebook {
+  background: url("../../images/custom/facebook.svg") no-repeat;
+}

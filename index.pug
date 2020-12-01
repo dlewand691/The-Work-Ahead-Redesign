@@ -1,0 +1,21 @@
+extends _template.pug
+include _mixins.pug
+
+block vars
+  - var pageTitle = "Artificial Intelligence Solutions | Cognizant"
+  - var metaDescription= "See how Cognizant Artificial Intelligence solutions help companies isolate the data that matters and make it useful."
+  - var metaKeywords= "ai for business,ai solutions,artificial intelligence solutions"
+
+block content
+  include includes/custom/landing/_hero.pug
+  include includes/custom/landing/_text-video.pug
+  include includes/custom/landing/_preview.pug
+  include includes/custom/landing/_headline.pug
+  include includes/custom/landing/_ahead.pug
+  include includes/custom/landing/_regions.pug
+  include includes/custom/landing/_headline.pug
+  include includes/custom/landing/_insights.pug
+  include includes/custom/landing/_board.pug
+  include includes/custom/landing/_contact.pug
+
+block append extraScripts

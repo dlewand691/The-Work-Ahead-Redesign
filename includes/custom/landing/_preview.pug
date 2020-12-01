@@ -1,0 +1,46 @@
+include ../../../_mixins.pug
+
+.relative.main-wrapper.medium-pb7.preview-container.section
+  .absolute.pos-top.pos-left.wh100.preview-background
+  .grid-container.text-white.pb2
+    .grid-x.grid-padding-x.small-up-1.align-left.title
+      .cell.main-wrapper.medium-12.large-4.pretitle
+        p.mb-half.text-bold.text-spacing-1 OVERVIEW
+    .grid-x.grid-padding-x.small-up-1.align-left.title
+      .cell.small-12.medium-6.large-5
+        h3 The Work Ahead 2021
+      .cell.flex.medium-6.bar-container
+        .grid-x.w100.show-for-medium
+          +white-bar(100)(class="preview-frame__top")
+  .grid-container
+    .grid-x.grid-margin-x.small-up-1.medium-up-3.large-up-3
+      +preview-tiles({
+        title: 'Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum',
+        linkText: 'Link text'
+      }, {
+        title: 'Dolor Sit',
+        linkText: 'Link text'
+      }, {
+        title: 'Amet',
+        linkText: 'Link text'
+      })
+  .grid-container.show-for-medium.medium-my2
+    .grid-x.grid-padding-x
+      .cell.large-11.p0
+        .vertical-bar
+  .grid-container
+    .grid-x.grid-margin-x.small-up-1.medium-up-3.large-up-3
+      +preview-tiles({
+        title: 'Lorem Ipsum',
+        linkText: 'Link text'
+      }, {
+        title: 'Dolor Sit',
+        linkText: 'Link text'
+      }, {
+        title: 'Amet',
+        linkText: 'Link text'
+      })
+    .grid-x.grid-padding-x.medium-mt2
+      .cell.flex.large-11.medium-12.bar-container.medium-pt5
+        .grid-x.w100.show-for-medium
+          +white-bar(100)(class="preview-frame__bottom")

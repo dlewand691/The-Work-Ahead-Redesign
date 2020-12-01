@@ -1,0 +1,32 @@
+@import './utils';
+
+.text-video-container {
+	font-size: 2.25em;
+	font-weight: 300;
+	line-height: 1.33;
+	margin-top: 7em;
+	color: $gray-dark;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+	@include breakpoint(large up) {
+		margin-top: 9em;
+	}
+	@include breakpoint(large down) {
+		margin: 15em 0;
+		font-size: 1.25rem;
+		line-height: 1.33;
+	}
+	@include breakpoint(medium down) {
+		margin-bottom: 3em;
+	}
+	.wrapper {
+		flex-direction: column;
+	}
+
+	.rectangle {
+		@include breakpoint(medium up) {
+			max-width: 60%;
+		}
+		height: 378px;
+	}
+}

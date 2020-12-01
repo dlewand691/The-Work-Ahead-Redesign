@@ -1,0 +1,53 @@
+include ../../../_mixins.pug
+
+.flex-container.align-middle.py5.regions-background
+  .grid-container
+    .grid-x.align-center-middle
+      .cell.pb5.medium-pb2.text-white
+        p.mb-half.text-bold.text-spacing-1 REGIONS
+        h3 The Work Ahead: Regions
+      .cell
+        .grid-x.grid-padding-x
+          +regions-index({
+            smColumns: "12",
+            mdColumns: "6",
+            lgColumns: "7",
+            eyebrow: "KEY INSIGHTS 2016",
+            headline: "A new digital economy has emerged from a tidal wave of technological innovation.",
+            url: "healthcare.html",
+            buttonText: "MORE",
+            image: "http://www.placekitten.com/400/300",
+          })(class='large-p0')
+
+          +regions-index({
+            smColumns: "12",
+            mdColumns: "6",
+            lgColumns: "5",
+            eyebrow: "KEY INSIGHTS 2016",
+            headline: "A new digital economy has emerged from a tidal wave of technological innovation.",
+            url: "life-sciences.html",
+            buttonText: "MORE",
+            image: "http://www.placekitten.com/400/300",
+          })(class='large-p0')
+
+          +regions-index({
+            smColumns: "12",
+            mdColumns: "6",
+            lgColumns: "5",
+            eyebrow: "KEY INSIGHTS 2016",
+            headline: "A new digital economy has emerged from a tidal wave of technological innovation.",
+            url: "healthcare.html",
+            buttonText: "MORE",
+            image: "http://www.placekitten.com/400/300",
+          })(class='large-p0')
+
+          +regions-index({
+            smColumns: "12",
+            mdColumns: "6",
+            lgColumns: "7",
+            eyebrow: "KEY INSIGHTS 2016",
+            headline: "A new digital economy has emerged from a tidal wave of technological innovation.",
+            url: "life-sciences.html",
+            buttonText: "MORE",
+            image: "http://www.placekitten.com/400/300",
+          })(class='large-p0')

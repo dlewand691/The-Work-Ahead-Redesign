@@ -1,0 +1,42 @@
+include ../../../_mixins.pug
+
+
+.grid-container.pt3.pb5
+  .grid-x.grid-padding-x.align-center
+    .cell.medium-10.text-center
+      p.mb-half.text-bold.text-gray.text-spacing-1 GET IN TOUCH
+      h3 Board of Directors
+      p Follow the Center for the Future of Work for up to date research, insight and advice to help leaders make sense of the latest technologies, business models and generation of workers.
+    .cell.medium-pt3.medium-pb3
+      .grid-x.grid-padding-x
+        +board-tile({
+          image: "http://www.placekitten.com/200/200",
+          name: 'Paul Roehrig, Ph.D.',
+          description: 'VP, Strategy & Marketing, Digital Business Founder, Center for the Future of Work',
+          linkedin: 'https://linkedin.com',
+          twitter: 'https://twitter.com',
+        }, {
+          image: "http://www.placekitten.com/200/200",
+          name: 'Ben Piring',
+          description: 'Lorem Ipsum dolor Sit Amet',
+          linkedin: 'https://linkedin.com',
+          twitter: 'https://twitter.com'
+        }, {
+          image: "http://www.placekitten.com/200/200",
+          name: 'Robert Brown',
+          description: 'Lorem Ipsum dolor Sit Amet',
+          linkedin: 'https://linkedin.com',
+          twitter: 'https://twitter.com'
+        }, {
+          image: "http://www.placekitten.com/200/200",
+          name: 'Euan Davis',
+          description: 'AVP, Center of the Future of Work, EMEA',
+          linkedin: 'https://linkedin.com',
+          twitter: 'https://twitter.com'
+        }, {
+          image: "http://www.placekitten.com/200/200",
+          name: 'Manish Bahl',
+          description: 'Lorem Ipsum dolor Sit Amet',
+          linkedin: 'https://linkedin.com',
+          twitter: 'https://twitter.com'
+        })
