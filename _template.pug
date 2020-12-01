@@ -32,11 +32,14 @@ html.no-js(lang="en")
 
     .z1.relative
       include ../../_COG-Framework-2020/pug/navigation.pug
+      +subnav(class="theme-blue")
+      +primaryNav(class="theme-default")
 
     .overflow-hidden.medium-mtn5
       block content
 
     include ../../_COG-Framework-2020/pug/footer.pug
+    +footer(class="theme-default")
 
     a#scrollUp(href="#", title="Back to top")
     script(src="js/min/app-min.js")
