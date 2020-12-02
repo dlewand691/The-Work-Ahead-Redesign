@@ -16281,17 +16281,17 @@ p {
   }
 }
 .extra-large {
-  font-size: 48px;
+  font-size: 40px;
   line-height: 1;
 }
 @media (min-width: 320px) {
   .extra-large {
-    font-size: calc(48px + 42 * (100vw - 320px) / 880);
+    font-size: calc(40px + 72 * (100vw - 320px) / 880);
   }
 }
 @media (min-width: 1200px) {
   .extra-large {
-    font-size: 90px;
+    font-size: 112px;
   }
 }
 @media (min-width: 320px) {
@@ -43349,23 +43349,6 @@ button.swiper-pagination-bullet {
   background-image: url(../images/flags/1x1/xk.svg);
 }
 
-.placeholder {
-  background: #d9d9d9;
-}
-
-.outer {
-  position: absolute;
-  left: 7em;
-  right: 7em;
-  z-index: -1;
-}
-
-.horizontal-bar {
-  width: 100%;
-  height: 24px;
-  background: red;
-}
-
 .frame-bar {
   margin: 0 auto;
   height: 24px;
@@ -43388,20 +43371,6 @@ button.swiper-pagination-bullet {
     min-height: 1200px;
   }
 }
-.hero-content h1 {
-  line-height: 1.1;
-  font-size: 50px;
-}
-@media (min-width: 320px) {
-  .hero-content h1 {
-    font-size: calc(50px + 60 * (100vw - 320px) / 880);
-  }
-}
-@media (min-width: 1200px) {
-  .hero-content h1 {
-    font-size: 110px;
-  }
-}
 .hero-scroll {
   flex-direction: column;
   left: 0;
@@ -43410,23 +43379,6 @@ button.swiper-pagination-bullet {
 }
 .hero-icon {
   transform: rotate(90deg);
-}
-
-.placeholder {
-  background: #d9d9d9;
-}
-
-.outer {
-  position: absolute;
-  left: 7em;
-  right: 7em;
-  z-index: -1;
-}
-
-.horizontal-bar {
-  width: 100%;
-  height: 24px;
-  background: red;
 }
 
 .frame-bar {
@@ -43484,23 +43436,6 @@ button.swiper-pagination-bullet {
   }
 }
 
-.placeholder {
-  background: #d9d9d9;
-}
-
-.outer {
-  position: absolute;
-  left: 7em;
-  right: 7em;
-  z-index: -1;
-}
-
-.horizontal-bar {
-  width: 100%;
-  height: 24px;
-  background: red;
-}
-
 .frame-bar {
   margin: 0 auto;
   height: 24px;
@@ -43519,7 +43454,7 @@ button.swiper-pagination-bullet {
 }
 
 .preview-background {
-  background-image: linear-gradient(233deg, #6dccff, #2D67FF);
+  background-image: linear-gradient(233deg, #50ade1, #2784b8);
   z-index: -1;
 }
 .preview-frame__bottom.frame-bar:before, .preview-frame__top.frame-bar:before {
@@ -43612,25 +43547,6 @@ button.swiper-pagination-bullet {
 
 .contact-container {
   background-image: linear-gradient(289deg, #2D67FF 153%, #000063);
-}
-
-@media print, screen and (max-width: 47.99875em) {
-  .main-wrapper {
-    padding: 0 1em;
-  }
-}
-
-.logos-container {
-  justify-content: center;
-}
-
-.logo {
-  width: 28px;
-  height: 28px;
-  border-radius: 0.25em;
-}
-.logo-container + .logo-container {
-  margin-left: 1em;
 }
 
 .linkedin {

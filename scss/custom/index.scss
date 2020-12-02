@@ -7,23 +7,23 @@
 
 .main-wrapper {
   @include breakpoint(medium down) {
-    padding: 0 1em;
+    // padding: 0 1em;
   }
 }
 
 .logos-container {
-  justify-content: center;
+  // justify-content: center;
 }
 
 .logo {
   &-container {
     & + .logo-container {
-      margin-left: 1em;
+      // margin-left: 1em;
     }
   }
-  width        : 28px;
-  height       : 28px;
-  border-radius: 0.25em;
+  // width        : 28px;
+  // height       : 28px;
+  // border-radius: 0.25em;
 }
 
 .linkedin {

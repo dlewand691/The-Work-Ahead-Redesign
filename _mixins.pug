@@ -1,11 +1,10 @@
 mixin preview-tiles(...elements)
   each element in elements
-    .cell.flex-container&attributes(attributes)
-      .text-white.relative.w100
-        .flex-container.z1.p1.pt6.wh100.align-bottom
-          h5.m0!= element.title
-        img.absolute.object-fit-cover.pos-top.z-1(src="http://www.placekitten.com/400/300", alt="")
-        a.small.arrow.text-white.link-coverAll.mbn2.w100.z1(href=element.url)!= element.linkText
+    .cell.text-white.relative.flex-container.align-bottom&attributes(attributes)
+      .z1.p1.pt6.w100
+        h5!= element.title
+        a.arrow.text-white.link-coverAll(href=element.url)!= element.linkText
+      img.absolute.object-fit-cover(src="http://www.placehold.it/400x300", alt="")
 
 mixin regions-index(...elements)
   each element in elements
@@ -47,8 +46,9 @@ mixin social-media(...elements)
   .flex-container
     each element in elements
       unless element.type == false
-        a.mx-half(href=element.link)
-          i.logo(class=element.type)
+        h5
+          a.mx-half(href=element.link)
+            i(class=element.type)
 
 mixin board-tile(...elements)
   each element in elements
@@ -62,10 +62,10 @@ mixin board-tile(...elements)
         .card-divider.pt0.align-center
           unless element.linkedin == false
             a.mx-half(href=element.linkedin)
-              i.logo.linkedin
+              i.logo-linkedin
           unless element.twitter == false
             a.mx-half(href=element.twitter)
-              i.logo.twitter
+              i.logo-twitter-bird
 
 mixin white-bar(width)
   .relative.frame-bar&attributes(attributes)(class=`w${width}`)

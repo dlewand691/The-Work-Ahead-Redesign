@@ -9,8 +9,8 @@
 
   &-content {
     h1 {
-      line-height: 1.1;
-      @include fluidSize(font-size, 320px, $cog-bp--desktop-xl, 50px, 110px);
+      // line-height: 1.1;
+      // @include fluidSize(font-size, 320px, $cog-bp--desktop-xl, 50px, 110px);
     }
   }
 
