@@ -8,15 +8,15 @@ mixin preview-tiles(...elements)
 
 mixin regions-index(...elements)
   each element in elements
-    div(class="small-" + element.smColumns class="medium-" + element.mdColumns class="large-" + element.lgColumns class="p-half mb3 medium-mb0")&attributes(attributes)
+    div(class="small-" + element.smColumns class="medium-" + element.mdColumns class="large-" + element.lgColumns class="p-half")&attributes(attributes)
       .grid-x.grid-padding-x.wh100.gradient-overlay-black-full.bg-black.hover-bg-grow.m0(data-aos="fade-up" data-aos-offset="50")
         .cell.auto.small-order-2.medium-order-1.p2.z1.text-white
-          .card.p0.bd0.bg-none.flex-container.h100
+          .card.m0.p0.bd0.bg-none.flex-container.h100
             .card-section.p0
               p.mb-half.text-bold.text-spacing-1(data-aos="fade-up" data-aos-offset="50")!= element.eyebrow
               h5.text-normal(data-aos="fade-up" data-aos-offset="50")!= element.headline
             .card-divider.p0.pt1
-              a.m0.small.white.button.show-for-medium.arrow.link-coverAll(href=element.url)!= element.buttonText
+              a.m0.small.white.button.arrow.link-coverAll(href=element.url)!= element.buttonText
         img.lazyload.absolute.object-fit-cover.show-for-medium.opacity-70(data-sizes="auto" data-src=element.image alt=element.headline)
 
 mixin insights-tile(...elements)
@@ -27,11 +27,11 @@ mixin insights-tile(...elements)
           h5!= element.title
           p!= element.description
         .card-divider.p0.pt1
-          a.m0.small.button.show-for-medium.arrow.link-coverAll(href=element.url)!= element.linkText
+          a.m0.small.button.arrow.link-coverAll(href=element.url)!= element.linkText
 
 mixin insight(...elements)
   each element in elements
-    .py6&attributes(attributes)
+    .py3.medium-py6&attributes(attributes)
       .grid-container
         .grid-x.grid-padding-x.align-center-middle
           .cell
