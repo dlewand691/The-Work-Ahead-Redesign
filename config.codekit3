@@ -1094,6 +1094,26 @@
 		"oAP": "/_BUILD/Icon\r",
 		"oF": 0
 		},
+	"/images/1px-blue.gif": {
+		"ft": 4194304,
+		"iS": 1098,
+		"oA": 0,
+		"oAP": "/_BUILD/images/1px-blue.gif",
+		"oF": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
+		},
+	"/images/1px-white.gif": {
+		"ft": 4194304,
+		"iS": 1098,
+		"oA": 0,
+		"oAP": "/_BUILD/images/1px-white.gif",
+		"oF": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
+		},
 	"/images/cog-logo-white.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -6418,6 +6438,19 @@
 		"q": 85,
 		"rq": 75
 		},
+	"/images/Global_Codex_6154_TWA Global Report_WEB.jpg": {
+		"ft": 16384,
+		"iS": 440212,
+		"jF": 2,
+		"oA": 0,
+		"oAP": "/_BUILD/images/Global_Codex_6154_TWA Global Report_WEB.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
+		},
 	"/images/transparent.gif": {
 		"ft": 4194304,
 		"iS": 1177,
@@ -6428,15 +6461,65 @@
 		"ou": "lpckwebp-none",
 		"rq": 75
 		},
-	"/includes/custom/landing/_ahead.pug": {
-		"cB": 0,
-		"cOD": 1,
-		"ft": 512,
-		"hM": 1,
-		"oA": 1,
-		"oAP": "/_BUILD/includes/custom/landing/_ahead.html",
+	"/images/twa-report-asia.jpg": {
+		"ft": 16384,
+		"iS": 118067,
+		"jF": 2,
+		"oA": 0,
+		"oAP": "/_BUILD/images/twa-report-asia.jpg",
 		"oF": 0,
-		"oS": 1
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
+		},
+	"/images/twa-report-europe.jpg": {
+		"ft": 16384,
+		"iS": 158975,
+		"jF": 2,
+		"oA": 0,
+		"oAP": "/_BUILD/images/twa-report-europe.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
+		},
+	"/images/twa-reports-assets/twa-report-asia.jpg": {
+		"ft": 16384,
+		"iS": 100196,
+		"jF": 2,
+		"oA": 0,
+		"oAP": "/_BUILD/images/twa-reports-assets/twa-report-asia.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
+		},
+	"/images/twa-reports-assets/twa-report-europe.jpg": {
+		"ft": 16384,
+		"iS": 87664,
+		"jF": 2,
+		"oA": 0,
+		"oAP": "/_BUILD/images/twa-reports-assets/twa-report-europe.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
+		},
+	"/images/twa-reports.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_BUILD/images/twa-reports.psd",
+		"oF": 0
 		},
 	"/includes/custom/landing/_board.pug": {
 		"cB": 0,
@@ -6455,16 +6538,6 @@
 		"hM": 1,
 		"oA": 1,
 		"oAP": "/_BUILD/includes/custom/landing/_contact.html",
-		"oF": 0,
-		"oS": 1
-		},
-	"/includes/custom/landing/_headline.pug": {
-		"cB": 0,
-		"cOD": 1,
-		"ft": 512,
-		"hM": 1,
-		"oA": 1,
-		"oAP": "/_BUILD/includes/custom/landing/_headline.html",
 		"oF": 0,
 		"oS": 1
 		},
@@ -6488,16 +6561,6 @@
 		"oF": 0,
 		"oS": 1
 		},
-	"/includes/custom/landing/_preview.pug": {
-		"cB": 0,
-		"cOD": 1,
-		"ft": 512,
-		"hM": 1,
-		"oA": 1,
-		"oAP": "/_BUILD/includes/custom/landing/_preview.html",
-		"oF": 0,
-		"oS": 1
-		},
 	"/includes/custom/landing/_regions.pug": {
 		"cB": 0,
 		"cOD": 1,
@@ -6505,6 +6568,36 @@
 		"hM": 1,
 		"oA": 1,
 		"oAP": "/_BUILD/includes/custom/landing/_regions.html",
+		"oF": 0,
+		"oS": 1
+		},
+	"/includes/custom/landing/_report.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 1,
+		"oA": 1,
+		"oAP": "/_BUILD/includes/custom/landing/_report.html",
+		"oF": 0,
+		"oS": 1
+		},
+	"/includes/custom/landing/_reports-regional.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 1,
+		"oA": 1,
+		"oAP": "/_BUILD/includes/custom/landing/_reports-regional.html",
+		"oF": 0,
+		"oS": 1
+		},
+	"/includes/custom/landing/_stat.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 1,
+		"oA": 1,
+		"oAP": "/_BUILD/includes/custom/landing/_stat.html",
 		"oF": 0,
 		"oS": 1
 		},
@@ -9750,19 +9843,6 @@
 		"oS": 0,
 		"sct": 0
 		},
-	"/scss/custom/_ahead.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/_BUILD/scss/css/_ahead.css",
-		"oF": 0,
-		"oS": 3,
-		"sct": 0
-		},
 	"/scss/custom/_contact.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -9789,19 +9869,6 @@
 		"oS": 3,
 		"sct": 0
 		},
-	"/scss/custom/_preview.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/_BUILD/scss/css/_preview.css",
-		"oF": 0,
-		"oS": 3,
-		"sct": 0
-		},
 	"/scss/custom/_regions.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -9811,6 +9878,32 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "/_BUILD/scss/css/_regions.css",
+		"oF": 0,
+		"oS": 3,
+		"sct": 0
+		},
+	"/scss/custom/_report.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/_BUILD/scss/css/_report.css",
+		"oF": 0,
+		"oS": 3,
+		"sct": 0
+		},
+	"/scss/custom/_reports-regional.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/_BUILD/scss/css/_reports-regional.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -9853,6 +9946,14 @@
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
+		},
+	"/The Work Ahead Landing.sketch": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/_BUILD/The Work Ahead Landing.sketch",
+		"oF": 1
 		},
 	"/Users/m_554319/Dropbox/My Mac (AMBUS100715)/Desktop/_COGNIZANT DEVELOPMENT/_COG-Framework-2020/pug/footer.pug": {
 		"cB": 0,
@@ -11882,6 +11983,17 @@
 		"targetECMAVersion": 0
 		},
 	"languageDefaultsUserDefined": [
+		{
+			"autoOutputAction": 1,
+			"autoOutputPathFilenamePattern": "*.psd",
+			"autoOutputPathRelativePath": "",
+			"autoOutputPathReplace1": "",
+			"autoOutputPathReplace2": "",
+			"autoOutputPathStyle": 0,
+			"fileExtension": "psd",
+			"shouldRunCacheBuster": 0,
+			"shouldRunHTMLMinifier": 0
+			}
 		],
 	"npmAbbreviatedPath": "",
 	"npmCreatePackageLock": 1,

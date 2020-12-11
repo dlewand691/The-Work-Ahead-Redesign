@@ -1,10 +1,10 @@
-mixin preview-tiles(...elements)
+mixin reports-regional(...elements)
   each element in elements
-    .cell.text-white.relative.flex-container.align-bottom&attributes(attributes)
-      .z1.p1.pt6.w100
+    .cell.text-white.relative.flex-container.align-bottom.gradient-overlay-black.hover-bg-grow.hover-grow.z1&attributes(attributes)
+      .z1.p1.pt9.w100
         h5!= element.title
         a.arrow.text-white.link-coverAll(href=element.url)!= element.linkText
-      img.absolute.object-fit-cover(src="http://www.placehold.it/400x300", alt="")
+      img.lazyload.absolute.object-fit-cover(data-src=element.image, alt="")
 
 mixin regions-index(...elements)
   each element in elements
@@ -13,7 +13,7 @@ mixin regions-index(...elements)
         .cell.auto.small-order-2.medium-order-1.p2.z1.text-white
           .card.m0.p0.bd0.bg-none.flex-container.h100
             .card-section.p0
-              p.mb-half.text-bold.text-spacing-1(data-aos="fade-up" data-aos-offset="50")!= element.eyebrow
+              p.mb-half.text-spacing-1(data-aos="fade-up" data-aos-offset="50")!= element.eyebrow
               h5.text-normal(data-aos="fade-up" data-aos-offset="50")!= element.headline
             .card-divider.p0.pt1
               a.m0.small.white.button.arrow.link-coverAll(href=element.url)!= element.buttonText
@@ -21,12 +21,13 @@ mixin regions-index(...elements)
 
 mixin insights-tile(...elements)
   each element in elements
-    .cell(data-aos="fade-up" data-aos-offset="50")&attributes(attributes)
-      .card.m0.p2.box-shadow-hover.flex-container.h100
-        .card-section.p0
+    .cell.medium-flex-basis-6col.flex-grow(data-aos="fade-up")&attributes(attributes)
+      .card.m0.box-shadow-hover.flex-container
+        img.object-fit-cover(src="https://www.placehold.it/600x300" style="max-height: 20vh;")
+        .card-section
           h5!= element.title
           p!= element.description
-        .card-divider.p0.pt1
+        .card-divider.pt1
           a.m0.small.button.arrow.link-coverAll(href=element.url)!= element.linkText
 
 mixin insight(...elements)
@@ -35,10 +36,10 @@ mixin insight(...elements)
       .grid-container
         .grid-x.grid-padding-x.align-center-middle
           .cell
-            p.mb-half.text-bold.text-gray.text-spacing-1!= element.eyebrow
+            p.mb-half.text-gray.text-spacing-1!= element.eyebrow
             h3!= element.title
           .cell
-            .grid-x.grid-padding-x.grid-margin-y.medium-up-2
+            .grid-x.grid-padding-x.grid-margin-y
               each tile in element.tiles
                 +insights-tile(tile)
 
@@ -52,20 +53,22 @@ mixin social-media(...elements)
 
 mixin board-tile(...elements)
   each element in elements
-    .cell.medium-4.medium-mb2
-      .card.bd0.flex-container.h100.text-center
+    .cell(data-aos="fade-up")
+      .card.bd0.h100
         .card-image
-          img(src=element.image)
-        .card-section.py0
-          h5.medium-mt1!= element.name
+          img.medium-px4(src=element.image)
+        .card-section.pb0
+          h5!= element.name
           p!=element.description
         .card-divider.pt0.align-center
           unless element.linkedin == false
-            a.mx-half(href=element.linkedin)
-              i.logo-linkedin
+            h5.m0
+              a.mx-half(href=element.linkedin)
+                i.logo-linkedin
           unless element.twitter == false
-            a.mx-half(href=element.twitter)
-              i.logo-twitter-bird
+            h5.m0
+              a.mx-half(href=element.twitter)
+                i.logo-twitter-bird
 
 mixin white-bar(width)
   .relative.frame-bar&attributes(attributes)(class=`w${width}`)

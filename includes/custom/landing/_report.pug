@@ -1,0 +1,59 @@
+include ../../../_mixins.pug
+
+.ahead-container.grid-container.relative.py2.medium-py6
+  // ======================================================================
+  // ██████   ██████  ██████  ██████  ███████ ██████
+  // ██   ██ ██    ██ ██   ██ ██   ██ ██      ██   ██
+  // ██████  ██    ██ ██████  ██   ██ █████   ██████
+  // ██   ██ ██    ██ ██   ██ ██   ██ ██      ██   ██
+  // ██████   ██████  ██   ██ ██████  ███████ ██   ██
+  // ======================================================================
+  .grid-x.show-for-medium
+    .cell.shrink.flex-container.align-top
+      img(src="images/1px-blue.gif" style="width: 1.25rem; height: 3rem;")
+    .cell.auto.flex-container.align-top
+      img(src="images/1px-blue.gif" style="width: 100%; height: 1.25rem;")
+    .cell.medium-1.shrink
+      img(src="images/1px-blue.gif" style="width: 1.25rem; height: 6.25rem;")
+
+  // ======================================================================
+  //-  ██████  ██████  ███    ██ ████████ ███████ ███    ██ ████████
+  //- ██      ██    ██ ████   ██    ██    ██      ████   ██    ██
+  //- ██      ██    ██ ██ ██  ██    ██    █████   ██ ██  ██    ██
+  //- ██      ██    ██ ██  ██ ██    ██    ██      ██  ██ ██    ██
+  //-  ██████  ██████  ██   ████    ██    ███████ ██   ████    ██
+  // ======================================================================  
+  .grid-x.grid-padding-x.align-middle.report
+    .cell.medium-6.small-12
+      p.mb-half.text-gray.text-spacing-1 GLOBAL REPORT
+      h2 Mastering the Digital Economy
+      p A new digital economy has emerged from a tidal wave of technological innovation. An economy based on platforms, algorithms, "things" and "bots" is generating immense value powered by ideas of the future.
+      a.button.arrow.expanded.medium-mt2(href="CHANGE_ME") READ THE REPORT
+      +social-media({
+        type: 'logo-facebook',
+        link: 'https://www.facebook.com/cognizant'
+      },{
+        type: 'logo-twitter-bird',
+        link: 'https://www.twitter.com/cognizant'
+      },{
+        type: 'logo-linkedin',
+        link: 'https://www.linkedin.com/cognizant'
+      })
+    .cell.medium-5.medium-offset-1.report-image.relative(data-aos="fade-left")
+      img.bd-blue-2.w100(src="images/Global_Codex_6154_TWA Global Report_WEB.jpg")
+      .report-image-shadow
+
+  // ======================================================================
+  // ██████   ██████  ██████  ██████  ███████ ██████
+  // ██   ██ ██    ██ ██   ██ ██   ██ ██      ██   ██
+  // ██████  ██    ██ ██████  ██   ██ █████   ██████
+  // ██   ██ ██    ██ ██   ██ ██   ██ ██      ██   ██
+  // ██████   ██████  ██   ██ ██████  ███████ ██   ██
+  // ======================================================================
+  .grid-x.show-for-medium
+    .cell.shrink.flex-container.align-bottom
+      img(src="images/1px-blue.gif" style="width: 1.25rem; height: 3rem;")
+    .cell.auto.flex-container.align-bottom
+      img(src="images/1px-blue.gif" style="width: 100%; height: 1.25rem;")
+    .cell.shrink.flex-container.align-bottom.medium-1
+      img(src="images/1px-blue.gif" style="width: 1.25rem; height: 6.25rem;")

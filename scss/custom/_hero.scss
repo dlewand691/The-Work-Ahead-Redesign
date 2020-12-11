@@ -3,7 +3,7 @@
 .hero {
   &-wrapper {
     @include breakpoint(medium) {
-      min-height: 1200px;
+      // min-height: 1200px;
     }
   }
 

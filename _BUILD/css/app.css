@@ -36030,7 +36030,7 @@ i {
   position: relative;
 }
 .gradient-overlay-blue::after {
-  background-image: linear-gradient(to bottom, rgba(0, 51, 160, 0) 0%, rgba(0, 51, 160, 0) 50%, #0033a0 100%);
+  background-image: linear-gradient(to bottom, rgba(0, 51, 160, 0) 0%, rgba(0, 51, 160, 0.15) 30%, #0033a0 100%);
   position: absolute;
   left: 0;
   bottom: 0;
@@ -36045,7 +36045,7 @@ i {
   position: relative;
 }
 .gradient-overlay-blue-full::after {
-  background-image: linear-gradient(to bottom, rgba(0, 51, 160, 0) 20%, rgba(0, 51, 160, 0.7) 65%);
+  background-image: linear-gradient(to bottom, rgba(0, 51, 160, 0) 0%, rgba(0, 51, 160, 0.15) 20%, rgba(0, 51, 160, 0.7) 65%);
   position: absolute;
   left: 0;
   bottom: 0;
@@ -36075,7 +36075,7 @@ i {
   position: relative;
 }
 .gradient-overlay-blue-dark::after {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 99, 0) 0%, rgba(0, 0, 99, 0) 50%, #000063 100%);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 99, 0) 0%, rgba(0, 0, 99, 0.15) 30%, #000063 100%);
   position: absolute;
   left: 0;
   bottom: 0;
@@ -36090,7 +36090,7 @@ i {
   position: relative;
 }
 .gradient-overlay-blue-dark-full::after {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 99, 0) 20%, rgba(0, 0, 99, 0.7) 65%);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 99, 0) 0%, rgba(0, 0, 99, 0.15) 20%, rgba(0, 0, 99, 0.7) 65%);
   position: absolute;
   left: 0;
   bottom: 0;
@@ -36120,7 +36120,7 @@ i {
   position: relative;
 }
 .gradient-overlay-white::after {
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 50%, white 100%);
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.15) 30%, white 100%);
   position: absolute;
   left: 0;
   bottom: 0;
@@ -36135,7 +36135,7 @@ i {
   position: relative;
 }
 .gradient-overlay-white-full::after {
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0.7) 65%);
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.15) 20%, rgba(255, 255, 255, 0.7) 65%);
   position: absolute;
   left: 0;
   bottom: 0;
@@ -36165,7 +36165,7 @@ i {
   position: relative;
 }
 .gradient-overlay-black::after {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, black 100%);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.15) 30%, black 100%);
   position: absolute;
   left: 0;
   bottom: 0;
@@ -36180,7 +36180,7 @@ i {
   position: relative;
 }
 .gradient-overlay-black-full::after {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.7) 65%);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.15) 20%, rgba(0, 0, 0, 0.7) 65%);
   position: absolute;
   left: 0;
   bottom: 0;
@@ -43366,11 +43366,6 @@ button.swiper-pagination-bullet {
   z-index: -1;
 }
 
-@media print, screen and (min-width: 37.5em) {
-  .hero-wrapper {
-    min-height: 1200px;
-  }
-}
 .hero-scroll {
   flex-direction: column;
   left: 0;
@@ -43436,56 +43431,7 @@ button.swiper-pagination-bullet {
   }
 }
 
-.frame-bar {
-  margin: 0 auto;
-  height: 24px;
-  background: #FFFFFF;
-}
-@media print, screen and (max-width: 25.62375em) {
-  .frame-bar {
-    height: 8px;
-  }
-}
-.frame-bar::before, .frame-bar::after {
-  content: "";
-  background: #FFFFFF;
-  position: absolute;
-  z-index: -1;
-}
-
-.preview-background {
-  background-image: linear-gradient(233deg, #50ade1, #2784b8);
-  z-index: -1;
-}
-.preview-frame__bottom.frame-bar:before, .preview-frame__top.frame-bar:before {
-  height: 2em;
-  width: 24px;
-}
-@media print, screen and (max-width: 25.62375em) {
-  .preview-frame__bottom.frame-bar:before, .preview-frame__top.frame-bar:before {
-    width: 8px;
-    height: 3em;
-  }
-}
-.preview-frame__bottom.frame-bar:before, .preview-frame__top.frame-bar:before {
-  right: 0;
-}
-.preview-frame__bottom.frame-bar:before {
-  bottom: 0;
-  height: 6em;
-}
-.preview-container .vertical-bar {
-  width: 24px;
-  height: 4.5em;
-  margin-left: auto;
-  background: #FFFFFF;
-  margin-right: 0.5rem;
-}
-.preview-container .bar-container {
-  align-items: center;
-}
-
-.ahead-container .bar:before, .ahead-container .bar:after {
+.ahead-container .bar:after, .ahead-container .bar:before {
   content: "";
   position: absolute;
   background: #0033A0;
@@ -43541,24 +43487,96 @@ button.swiper-pagination-bullet {
   }
 }
 
+.report:hover .report-image img {
+  transform: rotate(0deg);
+}
+.report:hover .report-image-shadow {
+  top: 80%;
+  height: 20%;
+  transform: scaleX(0.6) rotateX(100deg) rotateY(0deg) rotateZ(10deg) translateZ(-4rem);
+}
+
+.report-image {
+  perspective: 1500px;
+  position: relative;
+}
+.report-image img {
+  transform: rotateY(-20deg);
+  transition: all 0.5s ease;
+}
+.report-image:hover img {
+  transform: rotate(0deg);
+}
+
+.report-image-shadow {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  transform: scaleX(0.6) rotateX(100deg) rotateY(0deg) rotateZ(50deg) translateZ(-4rem);
+  -webkit-filter: blur(4rem);
+          filter: blur(4rem);
+  transition: all 0.5s ease;
+  z-index: -1;
+}
+
+.frame-bar {
+  margin: 0 auto;
+  height: 24px;
+  background: #FFFFFF;
+}
+@media print, screen and (max-width: 25.62375em) {
+  .frame-bar {
+    height: 8px;
+  }
+}
+.frame-bar::before, .frame-bar::after {
+  content: "";
+  background: #FFFFFF;
+  position: absolute;
+  z-index: -1;
+}
+
+.preview-background {
+  background-image: linear-gradient(233deg, #50ade1, #2784b8);
+  z-index: -1;
+}
+.preview-frame__bottom.frame-bar:before, .preview-frame__top.frame-bar:before {
+  height: 2em;
+  width: 24px;
+}
+@media print, screen and (max-width: 25.62375em) {
+  .preview-frame__bottom.frame-bar:before, .preview-frame__top.frame-bar:before {
+    width: 8px;
+    height: 3em;
+  }
+}
+.preview-frame__bottom.frame-bar:before, .preview-frame__top.frame-bar:before {
+  right: 0;
+}
+.preview-frame__bottom.frame-bar:before {
+  bottom: 0;
+  height: 6em;
+}
+.preview-container .vertical-bar {
+  width: 24px;
+  height: 4.5em;
+  margin-left: auto;
+  background: #FFFFFF;
+  margin-right: 0.5rem;
+}
+.preview-container .bar-container {
+  align-items: center;
+}
+
 .regions-background {
   background-image: linear-gradient(233deg, #50ade1, #2784b8);
 }
 
 .contact-container {
   background-image: linear-gradient(289deg, #2D67FF 153%, #000063);
-}
-
-.linkedin {
-  background: url("../../images/custom/linkedin.svg") no-repeat;
-}
-
-.twitter {
-  background: url("../../images/custom/twitter.svg") no-repeat;
-}
-
-.facebook {
-  background: url("../../images/custom/facebook.svg") no-repeat;
 }
 
 /*# sourceMappingURL=app.css.map */
