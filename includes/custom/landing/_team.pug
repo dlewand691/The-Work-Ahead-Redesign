@@ -1,0 +1,41 @@
+include ../../../_mixins.pug
+
+
+.grid-container.py2.medium-py6
+  .grid-x.grid-padding-x.grid-margin-y.align-center
+    .cell.medium-10.text-center
+      p.mb-half.text-gray.text-spacing-1 GET IN TOUCH
+      h3 Our Leadership Team
+      p Follow the Center for the Future of Work for up to date research, insight and advice to help leaders make sense of the latest technologies, business models and generation of workers.
+    .cell
+      .grid-x.grid-padding-x.grid-margin-y.text-center.align-center.medium-up-2
+        +board-tile(
+        {
+          image: "https://www.cognizant.com/futureofwork/images/article/author2/medium/9170d636a3bcd511b00a7427cf666a5f.png",
+          name: 'Manish Bahl',
+          description: 'AVP - Center for the Future of Work, APAC',
+          linkedin: 'https://www.linkedin.com/in/manishbahl',
+          twitter: 'https://twitter.com/mbahl'
+        },
+        {
+          image: "https://www.cognizant.com/futureofwork/images/article/author2/medium/9d068cd8069010030f89b94630b43e5e.png",
+          name: 'Robert Brown',
+          description: 'VP - Center for the Future of Work',
+          linkedin: 'https://www.linkedin.com/in/robthbrown',
+          twitter: 'https://twitter.com/robthbrown'
+        },
+        {
+          image: "https://www.cognizant.com/futureofwork/images/article/author2/medium/7576aafcfa7ada3848a8fe529a81759b.png",
+          name: 'Euan Davis',
+          description: 'AVP - Center for the Future of Work, EMEA',
+          linkedin: 'https://www.linkedin.com/in/euandavis',
+          twitter: 'https://twitter.com/euandavis'
+        },
+        {
+          image: "https://www.cognizant.com/futureofwork/images/article/author2/medium/17d4da016e068d3d3e83ce41047b1b86.png",
+          name: 'Ben Pring',
+          description: 'VP, Head of Thought Leadership & Managing Director - Center for the Future of Work',
+          linkedin: 'https://www.linkedin.com/in/benpring',
+          twitter: 'https://twitter.com/benjaminpring'
+        } 
+        )

@@ -23,7 +23,7 @@ mixin insights-tile(...elements)
   each element in elements
     .cell.medium-flex-basis-6col.flex-grow(data-aos="fade-up")&attributes(attributes)
       .card.m0.box-shadow-hover.flex-container
-        img.object-fit-cover(src="https://www.placehold.it/600x300" style="max-height: 20vh;")
+        img.lazyload.object-fit-cover(data-sizes="auto" data-src=element.image style="max-height: 20vh;")
         .card-section
           h5!= element.title
           p!= element.description
