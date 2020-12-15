@@ -1100,7 +1100,7 @@
 		"oA": 0,
 		"oAP": "/_BUILD/images/1px-blue.gif",
 		"oF": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"rq": 75
 		},
@@ -1110,7 +1110,7 @@
 		"oA": 0,
 		"oAP": "/_BUILD/images/1px-white.gif",
 		"oF": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"rq": 75
 		},
@@ -1122,7 +1122,7 @@
 		"oAP": "/_BUILD/images/ahead-book.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 85,
 		"rq": 75
@@ -1133,7 +1133,7 @@
 		"oA": 0,
 		"oAP": "/_BUILD/images/arrow.svg",
 		"oF": 0,
-		"opt": 0,
+		"opt": 1,
 		"plM": 52780316221407,
 		"prP": 0
 		},
@@ -1145,7 +1145,7 @@
 		"oAP": "/_BUILD/images/battleground-report-true-meaning-of-ai.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 85,
 		"rq": 75
@@ -1176,7 +1176,7 @@
 		"oA": 0,
 		"oAP": "/_BUILD/images/facebook.svg",
 		"oF": 0,
-		"opt": 0,
+		"opt": 1,
 		"plM": 52780316221407,
 		"prP": 0
 		},
@@ -1201,7 +1201,7 @@
 		"oAP": "/_BUILD/images/Global_Codex_6154_TWA Global Report_WEB.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 85,
 		"rq": 75
@@ -1213,7 +1213,7 @@
 		"oAP": "/_BUILD/images/headline-background.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"ou": "lpckwebp-none",
 		"q": 80,
@@ -1225,7 +1225,7 @@
 		"oA": 0,
 		"oAP": "/_BUILD/images/headline-number2.svg",
 		"oF": 0,
-		"opt": 0,
+		"opt": 1,
 		"plM": 52780316221407,
 		"prP": 0
 		},
@@ -1235,7 +1235,7 @@
 		"oA": 0,
 		"oAP": "/_BUILD/images/headline_numbers.svg",
 		"oF": 0,
-		"opt": 0,
+		"opt": 1,
 		"plM": 52780316221407,
 		"prP": 0
 		},
@@ -1247,7 +1247,7 @@
 		"oAP": "/_BUILD/images/hero-background ORIGINAL.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 85,
 		"rq": 75
@@ -1260,7 +1260,7 @@
 		"oAP": "/_BUILD/images/hero-background-blurred.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 85,
 		"rq": 75
@@ -1273,7 +1273,7 @@
 		"oAP": "/_BUILD/images/hero-background.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 85,
 		"rq": 75
@@ -1286,7 +1286,7 @@
 		"oAP": "/_BUILD/images/hero-bg-big.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 85,
 		"rq": 75
@@ -1299,7 +1299,7 @@
 		"oAP": "/_BUILD/images/hero-bg-medium.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 85,
 		"rq": 75
@@ -1312,7 +1312,7 @@
 		"oAP": "/_BUILD/images/hero-bg-mobile.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 85,
 		"rq": 75
@@ -1325,7 +1325,7 @@
 		"oAP": "/_BUILD/images/kxskdas.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 85,
 		"rq": 75
@@ -1336,7 +1336,7 @@
 		"oA": 0,
 		"oAP": "/_BUILD/images/linkedin.svg",
 		"oF": 0,
-		"opt": 0,
+		"opt": 1,
 		"plM": 52780316221407,
 		"prP": 0
 		},
@@ -1395,7 +1395,7 @@
 		"oAP": "/_BUILD/images/twa-report-asia.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 85,
 		"rq": 75
@@ -1408,7 +1408,7 @@
 		"oAP": "/_BUILD/images/twa-report-europe.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 85,
 		"rq": 75
@@ -1466,7 +1466,7 @@
 		"oA": 0,
 		"oAP": "/_BUILD/images/twitter.svg",
 		"oF": 0,
-		"opt": 0,
+		"opt": 1,
 		"plM": 52780316221407,
 		"prP": 0
 		},
@@ -4951,7 +4951,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "/favicons/apple-touch-icon-120x120.png",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 628540451.83718503
+	"lastBuiltDate": 629750291.03781998
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
