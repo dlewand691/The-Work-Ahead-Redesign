@@ -208,16 +208,25 @@
             </nav>
     </div>
     <div class="overflow-hidden medium-mtn5">
-      <div class="hero-wrapper text-white h100vh flex-container align-center-middle bg-size-cover bg-pos-center-center" data-interchange="[images/custom/hero-bg-mobile.jpg, small],[images/custom/hero-bg-medium.jpg, medium],[images/custom/hero-bg-big.jpg, large]">
+      <div class="hero-wrapper text-white h100vh flex-container align-center-middle video-background" data-interchange="[images/hero-bg-mobile.jpg, small],[images/transparent.gif, medium],[images/transparent.gif, large]">
+        <video class="hide-for-small-only" playsinline autoplay loop muted poster="images/twa-bg-header-video.jpg">
+          <source src="images/twa-bg-header-video.mp4" type="video/mp4">
+          <source src="images/twa-bg-header-video.webm" type="video/webm">
+          <source src="images/twa-bg-header-video.ogg" type="video/ogg">
+        </video>
         <div class="grid-container text-center hero-content">
-          <div class="cell py2 medium-py7 large-py2 xlarge-py5 large-mt4">
-            <h1 class="extra-large m0 inline-block" data-aos="fade-left" data-aos-delay="0" data-aos-duration="500">Mastering </h1>
-            <h1 class="extra-large m0 inline-block" data-aos="fade-right" data-aos-delay="300" data-aos-duration="500">Digital’s </h1>
-            <h1 class="extra-large m0 inline-block" data-aos="fade-left" data-aos-delay="600" data-aos-duration="500">Second </h1>
-            <h1 class="extra-large m0 inline-block" data-aos="fade-right" data-aos-delay="900" data-aos-duration="500">Wave</h1>
-          </div>
-          <div class="cell align-bottom">
-            <p class="m0 text-center">Let’s go</p><img class="mt1 hero-icon" src="images/custom/arrow.svg">
+          <div class="grid-x align-center">
+            <div class="cell medium-10 flex-container align-top" data-aos="fade-down" data-aos-delay="1800" data-aos-duration="500"><img src="images/1px-white.gif" style="width: 1.25rem; height: 3rem;"><img src="images/1px-white.gif" style="width: 100%; height: 1.25rem;"><img src="images/1px-white.gif" style="width: 1.25rem; height: 6.25rem;"></div>
+            <div class="cell">
+              <h1 class="extra-large m0 inline-block" data-aos="fade-left" data-aos-delay="0" data-aos-duration="750">Mastering </h1>
+              <h1 class="extra-large m0 inline-block" data-aos="fade-right" data-aos-delay="300" data-aos-duration="750">Digital’s </h1>
+              <h1 class="extra-large m0 inline-block" data-aos="fade-left" data-aos-delay="600" data-aos-duration="750">Second </h1>
+              <h1 class="extra-large m0 inline-block" data-aos="fade-right" data-aos-delay="900" data-aos-duration="750">Wave</h1>
+            </div>
+            <div class="cell align-bottom pt2" data-aos="fade-down" data-aos-delay="2500" data-aos-duration="500">
+              <p class="m0 text-center">Let’s go</p><img class="mt1 hero-icon" src="images/arrow.svg">
+            </div>
+            <div class="cell medium-10 flex-container align-bottom" data-aos="fade-up" data-aos-delay="1800" data-aos-duration="500"><img src="images/1px-white.gif" style="width: 1.25rem; height: 6.25rem;"><img src="images/1px-white.gif" style="width: 100%; height: 1.25rem;"><img src="images/1px-white.gif" style="width: 1.25rem; height: 3rem;"></div>
           </div>
         </div>
       </div>
@@ -270,7 +279,7 @@
           <div class="cell large-11 flex-container align-bottom"><img src="images/1px-blue.gif" style="width: 1.25rem; height: 3rem;"><img src="images/1px-blue.gif" style="width: 100%; height: 1.25rem;"><img src="images/1px-blue.gif" style="width: 1.25rem; height: 6.25rem;"></div>
         </div>
       </div>
-      <div class="bg-blue text-white py1 medium-py4 large-py8 bg-size-cover bg-pos-center-center bg-attach-fixed" style="background: url(images/custom/hero-background-blurred.jpg);">
+      <div class="bg-blue text-white py1 medium-py4 large-py8 bg-size-cover bg-pos-center-center bg-attach-fixed" style="background: url(images/hero-background-blurred.jpg);">
         <div class="grid-container">
           <div class="grid-x grid-padding-x align-middle">
             <div class="cell small-11 medium-5 text-center medium-text-right" data-aos="fade-right">
@@ -308,7 +317,7 @@
                   <div class="cell text-white relative flex-container align-bottom gradient-overlay-black hover-bg-grow hover-grow z1" data-aos="fade-left" data-aos-offset="200">
                     <div class="z1 p1 pt9 w100">
                       <h5>Report for Americas</h5><a class="arrow text-white link-coverAll">Link text</a>
-                    </div><img class="lazyload absolute object-fit-cover" data-src="https://www.placehold.it/400x300" alt="">
+                    </div><img class="lazyload absolute object-fit-cover" data-src="images/twa-reports-assets/twa-report-americas.jpg" alt="">
                   </div>
                   <div class="cell text-white relative flex-container align-bottom gradient-overlay-black hover-bg-grow hover-grow z1" data-aos="flip-up" data-aos-offset="200">
                     <div class="z1 p1 pt9 w100">
@@ -358,6 +367,13 @@
                 </div>
               </div>
             </div>
+      <div class="p2 medium-p5 bg-gray-lighter">
+        <div class="grid-x grid-padding-x align-center-middle">
+          <div class="cell medium-6">
+            <h3>CONTINUE THE CONVERSATION FORM HERE</h3>
+          </div>
+        </div>
+      </div>
       <div class="grid-container py2 medium-py6">
         <div class="grid-x grid-padding-x grid-margin-y align-center">
           <div class="cell medium-10 text-center">
@@ -366,7 +382,7 @@
             <p>Follow the Center for the Future of Work for up to date research, insight and advice to help leaders make sense of the latest technologies, business models and generation of workers.</p>
           </div>
           <div class="cell">
-            <div class="grid-x grid-padding-x grid-margin-y text-center align-center medium-up-2">
+            <div class="grid-x grid-padding-x grid-margin-y text-center align-center medium-up-4">
                     <div class="cell" data-aos="fade-up">
                       <div class="card bd0 h100">
                         <div class="card-image"><img class="medium-px4" src="https://www.cognizant.com/futureofwork/images/article/author2/medium/9170d636a3bcd511b00a7427cf666a5f.png"></div>
@@ -420,13 +436,6 @@
                       </div>
                     </div>
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="p2 medium-p5 bg-gray-lighter">
-        <div class="grid-x grid-padding-x align-center-middle">
-          <div class="cell medium-6">
-            <h3>CONTINUE THE CONVERSATION FORM HERE</h3>
           </div>
         </div>
       </div>

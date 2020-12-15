@@ -1114,6 +1114,29 @@
 		"ou": "lpckwebp-none",
 		"rq": 75
 		},
+	"/images/ahead-book.jpg": {
+		"ft": 16384,
+		"iS": 36477,
+		"jF": 2,
+		"oA": 0,
+		"oAP": "/_BUILD/images/ahead-book.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
+		},
+	"/images/arrow.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/_BUILD/images/arrow.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/images/battleground-report-true-meaning-of-ai.jpg": {
 		"ft": 16384,
 		"iS": 137924,
@@ -1147,180 +1170,13 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/images/custom/ahead-book.jpg": {
-		"ft": 16384,
-		"iS": 36477,
-		"jF": 2,
-		"oA": 0,
-		"oAP": "/_BUILD/images/custom/ahead-book.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"ou": "lpckwebp-none",
-		"q": 85,
-		"rq": 75
-		},
-	"/images/custom/arrow.svg": {
+	"/images/facebook.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "/_BUILD/images/custom/arrow.svg",
+		"oAP": "/_BUILD/images/facebook.svg",
 		"oF": 0,
-		"opt": 1,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/custom/facebook.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "/_BUILD/images/custom/facebook.svg",
-		"oF": 0,
-		"opt": 1,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/custom/headline-background.png": {
-		"ft": 32768,
-		"iS": 793014,
-		"oA": 0,
-		"oAP": "/_BUILD/images/custom/headline-background.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"ou": "lpckwebp-none",
-		"q": 80,
-		"rq": 75
-		},
-	"/images/custom/headline-number2.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "/_BUILD/images/custom/headline-number2.svg",
-		"oF": 0,
-		"opt": 1,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/custom/headline_numbers.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "/_BUILD/images/custom/headline_numbers.svg",
-		"oF": 0,
-		"opt": 1,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/custom/hero-background ORIGINAL.jpg": {
-		"ft": 16384,
-		"iS": 871706,
-		"jF": 2,
-		"oA": 0,
-		"oAP": "/_BUILD/images/custom/hero-background ORIGINAL.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"ou": "lpckwebp-none",
-		"q": 85,
-		"rq": 75
-		},
-	"/images/custom/hero-background-blurred.jpg": {
-		"ft": 16384,
-		"iS": 184056,
-		"jF": 2,
-		"oA": 0,
-		"oAP": "/_BUILD/images/custom/hero-background-blurred.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"ou": "lpckwebp-none",
-		"q": 85,
-		"rq": 75
-		},
-	"/images/custom/hero-background.jpg": {
-		"ft": 16384,
-		"iS": 871706,
-		"jF": 2,
-		"oA": 0,
-		"oAP": "/_BUILD/images/custom/hero-background.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"ou": "lpckwebp-none",
-		"q": 85,
-		"rq": 75
-		},
-	"/images/custom/hero-bg-big.jpg": {
-		"ft": 16384,
-		"iS": 1867675,
-		"jF": 2,
-		"oA": 0,
-		"oAP": "/_BUILD/images/custom/hero-bg-big.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"ou": "lpckwebp-none",
-		"q": 85,
-		"rq": 75
-		},
-	"/images/custom/hero-bg-medium.jpg": {
-		"ft": 16384,
-		"iS": 1584784,
-		"jF": 2,
-		"oA": 0,
-		"oAP": "/_BUILD/images/custom/hero-bg-medium.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"ou": "lpckwebp-none",
-		"q": 85,
-		"rq": 75
-		},
-	"/images/custom/hero-bg-mobile.jpg": {
-		"ft": 16384,
-		"iS": 717087,
-		"jF": 2,
-		"oA": 0,
-		"oAP": "/_BUILD/images/custom/hero-bg-mobile.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"ou": "lpckwebp-none",
-		"q": 85,
-		"rq": 75
-		},
-	"/images/custom/kxskdas.jpg": {
-		"ft": 16384,
-		"iS": 1564701,
-		"jF": 2,
-		"oA": 0,
-		"oAP": "/_BUILD/images/custom/kxskdas.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"ou": "lpckwebp-none",
-		"q": 85,
-		"rq": 75
-		},
-	"/images/custom/linkedin.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "/_BUILD/images/custom/linkedin.svg",
-		"oF": 0,
-		"opt": 1,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/custom/twitter.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "/_BUILD/images/custom/twitter.svg",
-		"oF": 0,
-		"opt": 1,
+		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
 		},
@@ -1350,6 +1206,140 @@
 		"q": 85,
 		"rq": 75
 		},
+	"/images/headline-background.png": {
+		"ft": 32768,
+		"iS": 793014,
+		"oA": 0,
+		"oAP": "/_BUILD/images/headline-background.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 80,
+		"rq": 75
+		},
+	"/images/headline-number2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/_BUILD/images/headline-number2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/headline_numbers.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/_BUILD/images/headline_numbers.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/hero-background ORIGINAL.jpg": {
+		"ft": 16384,
+		"iS": 871706,
+		"jF": 2,
+		"oA": 0,
+		"oAP": "/_BUILD/images/hero-background ORIGINAL.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
+		},
+	"/images/hero-background-blurred.jpg": {
+		"ft": 16384,
+		"iS": 184056,
+		"jF": 2,
+		"oA": 0,
+		"oAP": "/_BUILD/images/hero-background-blurred.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
+		},
+	"/images/hero-background.jpg": {
+		"ft": 16384,
+		"iS": 871706,
+		"jF": 2,
+		"oA": 0,
+		"oAP": "/_BUILD/images/hero-background.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
+		},
+	"/images/hero-bg-big.jpg": {
+		"ft": 16384,
+		"iS": 1867675,
+		"jF": 2,
+		"oA": 0,
+		"oAP": "/_BUILD/images/hero-bg-big.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
+		},
+	"/images/hero-bg-medium.jpg": {
+		"ft": 16384,
+		"iS": 1584784,
+		"jF": 2,
+		"oA": 0,
+		"oAP": "/_BUILD/images/hero-bg-medium.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
+		},
+	"/images/hero-bg-mobile.jpg": {
+		"ft": 16384,
+		"iS": 717087,
+		"jF": 2,
+		"oA": 0,
+		"oAP": "/_BUILD/images/hero-bg-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
+		},
+	"/images/kxskdas.jpg": {
+		"ft": 16384,
+		"iS": 1564701,
+		"jF": 2,
+		"oA": 0,
+		"oAP": "/_BUILD/images/kxskdas.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
+		},
+	"/images/linkedin.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/_BUILD/images/linkedin.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/images/transparent.gif": {
 		"ft": 4194304,
 		"iS": 1177,
@@ -1359,6 +1349,43 @@
 		"opt": 1,
 		"ou": "lpckwebp-none",
 		"rq": 75
+		},
+	"/images/twa-bg-header-video.jpg": {
+		"ft": 16384,
+		"iS": 562080,
+		"jF": 2,
+		"oA": 0,
+		"oAP": "/_BUILD/images/twa-bg-header-video.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
+		},
+	"/images/twa-bg-header-video.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_BUILD/images/twa-bg-header-video.mp4",
+		"oF": 0
+		},
+	"/images/twa-bg-header-video.ogg": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_BUILD/images/twa-bg-header-video.ogg",
+		"oF": 0
+		},
+	"/images/twa-bg-header-video.webm": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_BUILD/images/twa-bg-header-video.webm",
+		"oF": 0
 		},
 	"/images/twa-report-asia.jpg": {
 		"ft": 16384,
@@ -1386,6 +1413,19 @@
 		"q": 85,
 		"rq": 75
 		},
+	"/images/twa-reports-assets/twa-report-americas.jpg": {
+		"ft": 16384,
+		"iS": 109020,
+		"jF": 2,
+		"oA": 0,
+		"oAP": "/_BUILD/images/twa-reports-assets/twa-report-americas.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"ou": "lpckwebp-none",
+		"q": 85,
+		"rq": 75
+		},
 	"/images/twa-reports-assets/twa-report-asia.jpg": {
 		"ft": 16384,
 		"iS": 100196,
@@ -1394,7 +1434,7 @@
 		"oAP": "/_BUILD/images/twa-reports-assets/twa-report-asia.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 85,
 		"rq": 75
@@ -1407,7 +1447,7 @@
 		"oAP": "/_BUILD/images/twa-reports-assets/twa-report-europe.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 85,
 		"rq": 75
@@ -1418,6 +1458,32 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/_BUILD/images/twa-reports.psd",
+		"oF": 0
+		},
+	"/images/twitter.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/_BUILD/images/twitter.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/Wave Test 2_white_bg.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_BUILD/images/Wave Test 2_white_bg.mp4",
+		"oF": 0
+		},
+	"/images/Wave Test 2_white_bg.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/_BUILD/images/Wave Test 2_white_bg.psd",
 		"oF": 0
 		},
 	"/includes/custom/landing/_contact.pug": {
