@@ -32,7 +32,7 @@ mixin insights-tile(...elements)
 
 mixin insight(...elements)
   each element in elements
-    .py3.medium-py6&attributes(attributes)
+    .content-visibility.py3.medium-py6&attributes(attributes)
       .grid-container
         .grid-x.grid-padding-x.align-center-middle
           .cell
@@ -56,7 +56,7 @@ mixin team-tile(...elements)
     .cell(data-aos="fade-up")
       .card.bd0.h100
         .card-image
-          img.medium-px4(src=element.image)
+          img.medium-px4.lazyload(data-src=element.image)
         .card-section.pb0
           h5!= element.name
           p!=element.description

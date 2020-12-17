@@ -25,3 +25,8 @@ $blue-twa-dark: #2784b8;
 	overflow: hidden;
 	-webkit-line-clamp: $count;
 }
+
+.content-visibility {
+	content-visibility: auto;
+  contain-intrinsic-size: 1000px;
+}

@@ -18,9 +18,10 @@
     "jquery": "^3.5.1",
     "jstransformer-markdown-it": "^2.1.0",
     "lazysizes": "^5.2.2",
+    "lite-youtube-embed": "^0.1.2",
     "mediaelement": "^4.2.16",
     "motion-ui": "^2.0.3",
-    "swiper": "^6.4.0",
+    "swiper": "^6.4.1",
     "what-input": "^5.2.10"
   }
 }
