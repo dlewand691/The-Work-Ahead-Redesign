@@ -1,0 +1,28 @@
+$blue-twa: #50ade1;
+$blue-twa-dark: #2784b8;
+
+.frame {
+  &-bar {
+    margin    : 0 auto;
+    height    : 24px;
+    @include breakpoint(small only) {
+      height: 8px;
+    }
+    background: $white;
+
+    &::after,
+    &::before {
+      content   : '';
+      background: $white;
+      position  : absolute;
+      z-index   : -1;
+    }
+  }
+}
+
+@mixin line-clamp($count) {
+  display           : -webkit-box;
+  -webkit-box-orient: vertical; 
+  overflow          : hidden;
+  -webkit-line-clamp: $count;
+}

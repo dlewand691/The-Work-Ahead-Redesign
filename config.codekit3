@@ -1252,83 +1252,93 @@
 		"oAP": "/_BUILD/includes",
 		"oF": 0
 		},
-	"/includes/custom/landing/_contact.pug": {
+	"/includes/_contact.pug": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"hM": 1,
 		"oA": 1,
-		"oAP": "/_BUILD/includes/custom/landing/_contact.html",
+		"oAP": "/_BUILD/includes/_contact.html",
 		"oF": 0,
 		"oS": 1
 		},
-	"/includes/custom/landing/_hero.pug": {
+	"/includes/_hero.pug": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"hM": 1,
 		"oA": 1,
-		"oAP": "/_BUILD/includes/custom/landing/_hero.html",
+		"oAP": "/_BUILD/includes/_hero.html",
 		"oF": 0,
 		"oS": 1
 		},
-	"/includes/custom/landing/_insights.pug": {
+	"/includes/_insights.pug": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"hM": 1,
 		"oA": 1,
-		"oAP": "/_BUILD/includes/custom/landing/_insights.html",
+		"oAP": "/_BUILD/includes/_insights.html",
 		"oF": 0,
 		"oS": 1
 		},
-	"/includes/custom/landing/_report.pug": {
+	"/includes/_navigation.pug": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"hM": 1,
 		"oA": 1,
-		"oAP": "/_BUILD/includes/custom/landing/_report.html",
+		"oAP": "/_BUILD/includes/_navigation.html",
 		"oF": 0,
 		"oS": 1
 		},
-	"/includes/custom/landing/_reports-regional.pug": {
+	"/includes/_report.pug": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"hM": 1,
 		"oA": 1,
-		"oAP": "/_BUILD/includes/custom/landing/_reports-regional.html",
+		"oAP": "/_BUILD/includes/_report.html",
 		"oF": 0,
 		"oS": 1
 		},
-	"/includes/custom/landing/_stat.pug": {
+	"/includes/_reports-regional.pug": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"hM": 1,
 		"oA": 1,
-		"oAP": "/_BUILD/includes/custom/landing/_stat.html",
+		"oAP": "/_BUILD/includes/_reports-regional.html",
 		"oF": 0,
 		"oS": 1
 		},
-	"/includes/custom/landing/_team.pug": {
+	"/includes/_stat.pug": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"hM": 1,
 		"oA": 1,
-		"oAP": "/_BUILD/includes/custom/landing/_team.html",
+		"oAP": "/_BUILD/includes/_stat.html",
 		"oF": 0,
 		"oS": 1
 		},
-	"/includes/custom/landing/_text-video.pug": {
+	"/includes/_team.pug": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"hM": 1,
 		"oA": 1,
-		"oAP": "/_BUILD/includes/custom/landing/_text-video.html",
+		"oAP": "/_BUILD/includes/_team.html",
+		"oF": 0,
+		"oS": 1
+		},
+	"/includes/_text-video.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 1,
+		"oA": 1,
+		"oAP": "/_BUILD/includes/_text-video.html",
 		"oF": 0,
 		"oS": 1
 		},
@@ -1346,7 +1356,7 @@
 		"bF": 0,
 		"ft": 64,
 		"ma": 1,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "/_BUILD/js/min/app-min.js",
 		"oF": 0,
@@ -4572,6 +4582,97 @@
 		"oAP": "/_BUILD/scss/.sass-cache/fd0ee89fd7ebfd474715c2ab23eb85142159e40f/_read-more.scssc",
 		"oF": 1
 		},
+	"/scss/_contact.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/_BUILD/css/_contact.css",
+		"oF": 0,
+		"oS": 3,
+		"sct": 0
+		},
+	"/scss/_hero.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/_BUILD/css/_hero.css",
+		"oF": 0,
+		"oS": 3,
+		"sct": 0
+		},
+	"/scss/_regions.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/_BUILD/css/_regions.css",
+		"oF": 0,
+		"oS": 3,
+		"sct": 0
+		},
+	"/scss/_report.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/_BUILD/css/_report.css",
+		"oF": 0,
+		"oS": 3,
+		"sct": 0
+		},
+	"/scss/_reports-regional.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/_BUILD/css/_reports-regional.css",
+		"oF": 0,
+		"oS": 3,
+		"sct": 0
+		},
+	"/scss/_textvideo.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/_BUILD/css/_textvideo.css",
+		"oF": 0,
+		"oS": 3,
+		"sct": 0
+		},
+	"/scss/_utils.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/_BUILD/css/_utils.css",
+		"oF": 0,
+		"oS": 3,
+		"sct": 0
+		},
 	"/scss/app.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -4582,10 +4683,10 @@
 		"oA": 0,
 		"oAP": "/_BUILD/css/app.css",
 		"oF": 1,
-		"oS": 3,
+		"oS": 0,
 		"sct": 0
 		},
-	"/scss/custom/_contact.scss": {
+	"/scss/index.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -4593,98 +4694,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/_BUILD/scss/css/_contact.css",
-		"oF": 0,
-		"oS": 3,
-		"sct": 0
-		},
-	"/scss/custom/_hero.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/_BUILD/scss/css/_hero.css",
-		"oF": 0,
-		"oS": 3,
-		"sct": 0
-		},
-	"/scss/custom/_regions.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/_BUILD/scss/css/_regions.css",
-		"oF": 0,
-		"oS": 3,
-		"sct": 0
-		},
-	"/scss/custom/_report.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/_BUILD/scss/css/_report.css",
-		"oF": 0,
-		"oS": 3,
-		"sct": 0
-		},
-	"/scss/custom/_reports-regional.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/_BUILD/scss/css/_reports-regional.css",
-		"oF": 0,
-		"oS": 3,
-		"sct": 0
-		},
-	"/scss/custom/_textvideo.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/_BUILD/scss/css/_textvideo.css",
-		"oF": 0,
-		"oS": 3,
-		"sct": 0
-		},
-	"/scss/custom/_utils.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/_BUILD/scss/css/_utils.css",
-		"oF": 0,
-		"oS": 3,
-		"sct": 0
-		},
-	"/scss/custom/index.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/_BUILD/scss/css/index.css",
+		"oAP": "/_BUILD/css/index.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -4696,26 +4706,6 @@
 		"oA": 1,
 		"oAP": "/_BUILD/The Work Ahead Landing.sketch",
 		"oF": 1
-		},
-	"/Users/m_554319/Dropbox/My Mac (AMBUS100715)/Desktop/_COGNIZANT DEVELOPMENT/_COG-Framework-2020/pug/footer.pug": {
-		"cB": 0,
-		"cOD": 1,
-		"ft": 512,
-		"hM": 1,
-		"oA": 1,
-		"oAP": "/_BUILD/Users/m_554319/Dropbox/My Mac (AMBUS100715)/Desktop/_COGNIZANT DEVELOPMENT/_COG-Framework-2020/pug/footer.html",
-		"oF": 0,
-		"oS": 1
-		},
-	"/Users/m_554319/Dropbox/My Mac (AMBUS100715)/Desktop/_COGNIZANT DEVELOPMENT/_COG-Framework-2020/pug/navigation.pug": {
-		"cB": 0,
-		"cOD": 1,
-		"ft": 512,
-		"hM": 1,
-		"oA": 1,
-		"oAP": "/_BUILD/Users/m_554319/Dropbox/My Mac (AMBUS100715)/Desktop/_COGNIZANT DEVELOPMENT/_COG-Framework-2020/pug/navigation.html",
-		"oF": 0,
-		"oS": 1
 		}
 	},
 "hooks": [
@@ -4728,7 +4718,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "/favicons/apple-touch-icon-120x120.png",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 629913528.308676
+	"lastBuiltDate": 629996304.29275799
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

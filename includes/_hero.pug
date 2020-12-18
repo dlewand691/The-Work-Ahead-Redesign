@@ -1,4 +1,4 @@
-include ../../../_mixins.pug
+include ../_mixins.pug
 
 //- .w100vw.hero-background.bg-size-cover.bg-pos-center-center(data-interchange="[../../images/hero-bg-mobile.jpg, small],[../../images/hero-bg-medium.jpg, medium],[../../images/hero-bg-big.jpg, large]")
   .relative.wh100
@@ -14,7 +14,7 @@ include ../../../_mixins.pug
       p.m0.text-center Let’s go
       img.mt1.hero-icon(src="images/arrow.svg")
 
-.content-visibility.hero-wrapper.text-white.h100vh.flex-container.align-center-middle.video-background.bg-size-cover.bg-pos-center-center(data-interchange="[images/hero-bg-mobile.jpg, small],[images/transparent.gif, medium],[images/transparent.gif, large]")
+.hero-wrapper.text-white.h100vh.flex-container.align-center-middle.video-background.bg-size-cover.bg-pos-center-center(data-interchange="[images/hero-bg-mobile.jpg, small],[images/transparent.gif, medium],[images/transparent.gif, large]")
   video.hide-for-small-only(playsinline autoplay preload="auto" loop muted poster="images/twa-bg-header-video.jpg" width="1920" height="600")
     source(src="images/twa-bg-header-video.mp4" type="video/mp4")
     source(src="images/twa-bg-header-video.webm" type="video/webm")

@@ -50,15 +50,17 @@ html.no-js(lang="en")
   body
 
     .z2.relative
-      include ../../_COG-Framework-2020/pug/navigation.pug
+      include includes/_navigation.pug
       +subnav(class="theme-blue")
       +primaryNav(class="theme-default")
 
     .overflow-hidden.medium-mtn5
       block content
 
-    include ../../_COG-Framework-2020/pug/footer.pug
-    +footer(class="theme-default")
+    .flex-container.p2.medium-p5.bg-gray.text-white.align-middle
+      .grid-x.grid-padding-x.align-center-middle.py10
+        .cell.medium-6
+          h3 FOOTER COMPONENT HERE
 
     a#scrollUp(href="#", title="Back to top")
     script(src="js/min/app-min.js")
