@@ -16514,27 +16514,27 @@ strong {
 ███████ ██ ██   ████ ██   ██ ███████
 
 =========================================================================================== */
-a:link {
+a, a:link {
   font-weight: bold;
   transition: all 0.3s ease;
 }
-a:link:hover {
+a:hover, a:link:hover {
   transition: all 0.3s ease;
 }
-a:link:hover:not(.button) {
+a:hover:not(.button), a:link:hover:not(.button) {
   transition: all 0.3s ease;
   color: #008e33;
 }
-a:link.large {
+a.large, a:link.large {
   font-size: 20px;
 }
 @media (min-width: 320px) {
-  a:link.large {
+  a.large, a:link.large {
     font-size: calc(20px + 5 * (100vw - 320px) / 880);
   }
 }
 @media (min-width: 1200px) {
-  a:link.large {
+  a.large, a:link.large {
     font-size: 25px;
   }
 }
@@ -36659,7 +36659,6 @@ footer.theme-blue-dark-gradient .footer-site-map {
 }
 .secondary-nav .language-menu {
   background: #FFFFFF;
-  width: unset;
 }
 .secondary-nav .language-menu::before {
   display: block;
@@ -36809,7 +36808,6 @@ footer.theme-blue-dark-gradient .footer-site-map {
 }
 .theme-blue .secondary-nav .language-menu {
   background: #000063;
-  width: unset;
 }
 .theme-blue .secondary-nav .language-menu::before {
   display: block;
@@ -36953,7 +36951,6 @@ footer.theme-blue-dark-gradient .footer-site-map {
 }
 .theme-blue-dark .secondary-nav .language-menu {
   background: #000030;
-  width: unset;
 }
 .theme-blue-dark .secondary-nav .language-menu::before {
   display: block;
@@ -37097,7 +37094,6 @@ footer.theme-blue-dark-gradient .footer-site-map {
 }
 .theme-cfow .secondary-nav .language-menu {
   background: rgba(51, 51, 51, 0.97);
-  width: unset;
 }
 .theme-cfow .secondary-nav .language-menu::before {
   display: block;
@@ -43216,6 +43212,11 @@ button.swiper-pagination-bullet {
   z-index: -1;
 }
 
+.content-visibility {
+  content-visibility: auto;
+  contain-intrinsic-size: 1px 1000px;
+}
+
 .hero-scroll {
   flex-direction: column;
   left: 0;
@@ -43241,6 +43242,11 @@ button.swiper-pagination-bullet {
   background: #FFFFFF;
   position: absolute;
   z-index: -1;
+}
+
+.content-visibility {
+  content-visibility: auto;
+  contain-intrinsic-size: 1px 1000px;
 }
 
 .text-video-container {
@@ -43330,6 +43336,11 @@ button.swiper-pagination-bullet {
   background: #FFFFFF;
   position: absolute;
   z-index: -1;
+}
+
+.content-visibility {
+  content-visibility: auto;
+  contain-intrinsic-size: 1px 1000px;
 }
 
 .preview-background {

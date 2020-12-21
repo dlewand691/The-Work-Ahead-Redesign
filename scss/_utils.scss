@@ -26,3 +26,20 @@ $blue-twa-dark: #2784b8;
   overflow          : hidden;
   -webkit-line-clamp: $count;
 }
+
+.content-visibility {
+  // contain: size;
+  // contain: layout;
+  // contain: style;
+  // contain: paint;
+  content-visibility    : auto;
+  // content-visibility    : visible;
+  // content-visibility    : hidden;
+  contain-intrinsic-size: 1px 1000px;
+  // max-height: 1000px;
+  // display: block;
+}
+
+[data-aos] {
+  // overflow: hidden;
+}

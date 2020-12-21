@@ -1,28 +1,28 @@
 mixin reports-regional(...elements)
   each element in elements
-    .cell.text-white.relative.flex-container.align-bottom.gradient-overlay-black.hover-bg-grow.hover-grow.z1&attributes(attributes)
-      .z1.p1.pt9.w100
-        h5!= element.title
-        a.arrow.text-white.link-coverAll(href=element.url)!= element.linkText
+    .cell.text-white.relative.flex-container.align-bottom.gradient-overlay-black-full.hover-bg-grow.hover-grow.z1&attributes(attributes)
+      .z1.p1.pt5.w100
+        p!= element.title
+        a.small.button.arrow.m0.link-coverAll(href=element.url)!= element.linkText
       img.lazyload.absolute.object-fit-cover(data-src=element.image, alt="")
 
-mixin regions-index(...elements)
+//- mixin regions-index(...elements)
   each element in elements
     div(class="small-" + element.smColumns class="medium-" + element.mdColumns class="large-" + element.lgColumns class="p-half")&attributes(attributes)
-      .grid-x.grid-padding-x.wh100.gradient-overlay-black-full.bg-black.hover-bg-grow.m0(data-aos="fade-up" data-aos-offset="50")
+      .grid-x.grid-padding-x.wh100.gradient-overlay-black-full.bg-black.hover-bg-grow.m0(data-aos="fade")
         .cell.auto.small-order-2.medium-order-1.p2.z1.text-white
           .card.m0.p0.bd0.bg-none.flex-container.h100
             .card-section.p0
-              p.mb-half.text-spacing-1(data-aos="fade-up" data-aos-offset="50")!= element.eyebrow
-              h5.text-normal(data-aos="fade-up" data-aos-offset="50")!= element.headline
+              p.mb-half.text-spacing-1(data-aos="fade")!= element.eyebrow
+              h5.text-normal(data-aos="fade")!= element.headline
             .card-divider.p0.pt1
               a.m0.small.white.button.arrow.link-coverAll(href=element.url)!= element.buttonText
         img.lazyload.absolute.object-fit-cover.show-for-medium.opacity-70(data-sizes="auto" data-src=element.image alt=element.headline)
 
 mixin insights-tile(...elements)
   each element in elements
-    .cell.medium-flex-basis-6col.flex-grow(data-aos="fade-up")&attributes(attributes)
-      .card.m0.box-shadow-hover.flex-container
+    .cell.medium-flex-basis-6col.flex-grow(data-aos="fade")&attributes(attributes)
+      .card.m0.box-shadow-hover.flex-container.relative
         img.lazyload.object-fit-cover(data-sizes="auto" data-src=element.image style="max-height: 20vh;")
         .card-section
           h5!= element.title
@@ -48,12 +48,12 @@ mixin social-media(...elements)
     each element in elements
       unless element.type == false
         h5
-          a.mx-half(href=element.link)
+          a.mx-half(href=element.link target="_blank" rel="noopener")
             i(class=element.type)
 
 mixin team-tile(...elements)
   each element in elements
-    .cell(data-aos="fade-up")
+    .cell
       .card.bd0.h100
         .card-image
           img.medium-px4.lazyload(data-src=element.image)
@@ -63,11 +63,11 @@ mixin team-tile(...elements)
         .card-divider.pt0.align-center
           unless element.linkedin == false
             h5.m0
-              a.mx-half(href=element.linkedin)
+              a.mx-half(href=element.linkedin target="_blank" rel="noopener")
                 i.logo-linkedin
           unless element.twitter == false
             h5.m0
-              a.mx-half(href=element.twitter)
+              a.mx-half(href=element.twitter target="_blank" rel="noopener")
                 i.logo-twitter-bird
 
 mixin white-bar(width)
