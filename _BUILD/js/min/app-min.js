@@ -25685,12 +25685,6 @@ $(".tabs.bg-steps-green").each(function () {
 }); // -----  End of TABS GRADIENT STEPS  ----------
 // @codekit-prepend "js/cognizant-framework-2020.js"
 //@codekit-append "lite-youtube-embed"
-AOS.init({
-  // duration: 750,
-  // mirror: false,
-  // startEvent: "load",
-  offset: "300"
-});
 /**
  * A lightweight youtube embed. Still should feel the same to the user, just MUCH faster to initialize and paint.
  *
