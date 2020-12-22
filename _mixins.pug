@@ -3,7 +3,7 @@ mixin reports-regional(...elements)
     .cell.text-white.relative.flex-container.align-bottom.gradient-overlay-black-full.hover-bg-grow.hover-grow.z1&attributes(attributes)
       .z1.p1.pt5.w100
         p!= element.title
-        a.small.button.arrow.m0.link-coverAll(href=element.url)!= element.linkText
+        a.small.button.arrow.m0.link-coverAll(href=element.url target="_blank" rel="noopener")!= element.linkText
       img.lazyload.absolute.object-fit-cover(data-src=element.image, alt="")
 
 //- mixin regions-index(...elements)
@@ -47,7 +47,7 @@ mixin social-media(...elements)
   .flex-container
     each element in elements
       unless element.type == false
-        h5
+        h5&attributes(attributes)
           a.mx-half(href=element.link target="_blank" rel="noopener")
             i(class=element.type)
 

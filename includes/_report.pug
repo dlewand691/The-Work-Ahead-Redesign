@@ -22,11 +22,11 @@ include ../_mixins.pug
   //-  ██████  ██████  ██   ████    ██    ███████ ██   ████    ██
   // ======================================================================  
   .grid-x.grid-padding-x.align-middle.report
-    .cell.medium-6.small-12(data-aos="fade-left")
+    .cell.medium-6.small-12.relative(data-aos="fade-left")
       p.mb-half.text-gray.text-spacing-1 GLOBAL REPORT
       h2 Mastering the Digital Economy
       p The Work Ahead reveals that while digital is still a work in progress, digital competency is the primary competency that will move businesses into the future.
-      a.button.arrow.expanded.medium-mt2(href="CHANGE_ME") READ THE REPORT
+      a.button.arrow.expanded.medium-mt2.link-coverAll(href="https://www.cognizant.com/whitepapers/the-work-ahead-digital-first-to-last-codex6154.pdf" target="_blank" rel="noopener") READ THE REPORT
       +social-media({
         type: 'logo-facebook',
         link: 'https://www.facebook.com/cognizant'
@@ -36,7 +36,7 @@ include ../_mixins.pug
       },{
         type: 'logo-linkedin',
         link: 'https://www.linkedin.com/cognizant'
-      })
+      })(class="z1")
     .cell.medium-5.medium-offset-1.report-image.relative(data-aos="fade-right")
       img.lazyload.bd-blue-2.w100(data-src="images/Global_Codex_6154_TWA_Global_Report_WEB.jpg")
       .report-image-shadow
